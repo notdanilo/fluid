@@ -1,12 +1,9 @@
 use std::time::Instant;
 use crate::math::*;
 use crate::particles::Particles;
-use crate::simulator::force::Gravity;
 
 pub mod constants;
 use constants::*;
-
-pub mod force;
 
 pub struct Simulator {
     then: Instant
